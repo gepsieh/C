@@ -2,9 +2,9 @@
  * @Author: Tanaka Hao 314308943@qq.com
  * @Date: 2022-11-12 20:32:01
  * @LastEditors: Tanaka Hao 314308943@qq.com
- * @LastEditTime: 2022-11-12 21:37:21
+ * @LastEditTime: 2022-11-12 21:41:56
  * @FilePath: \C\C Primer Plus\Charpter 3\3.5.c
- * @Description: ÊäÈëÄêÁä²¢×ª»»³ÉÃëÊı
+ * @Description: è¾“å…¥å¹´é¾„å¯¹åº”ç§’æ•°
  * 
  * Copyright (c) 2022 by Tanaka Hao 314308943@qq.com, All Rights Reserved. 
  */
@@ -15,11 +15,11 @@ int main(void)
 {
     int age;
     long sec;
-    printf("ÊäÈëÄãµÄÄêÁä:");
+    printf("è¾“å…¥å¹´é¾„:");
     scanf("%d", &age);
     sec=(long)age*3.156e7;
 
-    printf("¶ÔÓ¦ÃëÊıÎª %ld.", sec);
+    printf("ç§’æ•°ä¸º %ld.", sec);
 
     getchar();
     getchar();
