@@ -2,9 +2,9 @@
  * @Author: Tanaka Hao 314308943@qq.com
  * @Date: 2022-11-12 20:32:01
  * @LastEditors: Tanaka Hao 314308943@qq.com
- * @LastEditTime: 2022-11-12 21:26:47
+ * @LastEditTime: 2022-11-12 21:31:22
  * @FilePath: \C\C Primer Plus\Charpter 3\3.5.c
- * @Description: è¾“å…¥å¹´é¾„å¹¶æ˜¾ç¤ºå¹´é¾„å¯¹åº”çš„ç§’æ•°ã€‚
+ * @Description: ÊäÈëÄêÁä²¢ÏÔÊ¾ÄêÁä¶ÔÓ¦µÄÃëÊı¡£
  * 
  * Copyright (c) 2022 by Tanaka Hao 314308943@qq.com, All Rights Reserved. 
  */
@@ -15,11 +15,11 @@ int main(void)
 {
     int age;
     long sec;
-    printf("Enter your age:");
+    printf("ÊäÈëÄãµÄÄêÁä:");
     scanf("%d", &age);
     sec=(long)age*3.156e7;
 
-    printf("The seconds of your age is %ld.", sec);
+    printf("ÄãµÄÄêÁä¶ÔÓ¦ÃëÊıÊÇ %ld.", sec);
 
     getchar();
     getchar();
